@@ -1,3 +1,4 @@
+#Recebe um host/site como argumetno e extrai as urls encontradas no site, ou seja, faz um parsing do html.
 #!/bin/bash
 
 if [ "$1" == "" ]
