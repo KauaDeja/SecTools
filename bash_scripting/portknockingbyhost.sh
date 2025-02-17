@@ -1,3 +1,4 @@
+#Este script vai receber como único argumento uma rede, em seguida fazer um scan para identificar quais os hosts ativos e por fim fazer um Port Knocking nos hosts ativos para abrir a porta 1337, no qual está com o malware.
 #!/bin/bash
 
 if [ "$1" == "" ]
