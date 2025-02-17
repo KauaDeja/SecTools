@@ -1,3 +1,4 @@
+#Este script faz uma varredura na rede para identificar quais os hosts estão ativos.
 #!/bin/bash
 
 if [ "$1" == "" ]
