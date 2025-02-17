@@ -1,3 +1,4 @@
+#Este script recebe um ip como argumetno e faz um Port Knocking para abrir a 1337.
 #!/bin/bash
 
 if [ "$1" == "" ]
