@@ -1,3 +1,4 @@
+#Este script recebe uma rede como argumento no qual vai verificar se a porta definida está aberta nos hosts da rede.
 #!/bin/bash
 
 if [ "$1" == "" ]
