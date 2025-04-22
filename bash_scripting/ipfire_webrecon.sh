@@ -1,4 +1,6 @@
 #!/bin/bash
+#Para mais detalhes desse scritp acessar o link da documentação.
+#https://www.notion.so/Web-Scan-IP-Fire-1dd3ffba6f1f8020aaa3e8a4ad4e54cd?pvs=4
 
 for file in $(cat wordlist_ipfire.txt);
 do
