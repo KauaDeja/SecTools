@@ -1,11 +1,11 @@
-#Este script é um programa feito para quebrar hashes unix do tipo MD5.
+#Este script é um programa feito para quebrar hashes unix do tipo MD5 e SHA512.
 import re
 from passlib.hash import sha512_crypt, md5_crypt
 
 
 def quebrar_hash_md5(b_hash, b_salt ):
 
-    with open(r'C:\Users\kauak\Desktop\kaua\sectools\python\brute_force_hash\word.txt','r') as file:
+    with open(r'C:\Users\user\Desktop\user\sectools\python\brute_force_hash\word.txt','r') as file:
         for senha in file:
             senha = senha.strip()
             result = md5_crypt.hash(senha, salt=b_salt)
@@ -20,7 +20,7 @@ pass
 
 def quebrar_hash_sha512(b_hash, b_salt ):
 
-    with open(r'C:\Users\kauak\Desktop\kaua\sectools\python\brute_force_hash\word.txt','r') as file:
+    with open(r'C:\Users\user\Desktop\user\sectools\python\brute_force_hash\word.txt','r') as file:
         for senha in file:
             senha = senha.strip()
             result = sha512_crypt.hash(senha, rounds=5000,salt=b_salt)
